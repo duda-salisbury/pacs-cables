@@ -1,0 +1,110 @@
+body {
+    font-family:'Prosto One', sans-serif;
+    overflow-x: hidden;
+}
+
+.btn {
+    border-radius: 0px!important;
+}
+
+.bg-primary {
+    background-color:#6d652a!important;
+}
+
+.btn-outline-primary {
+    border-color:#6d652a!important;
+    color: #6d652a!important;
+}
+
+.btn-primary {
+    background-color:#6d652a!important;
+    border-color:#6d652a!important;
+    color: #eee!important;
+}
+
+/** nav links are a dark grey **/
+.nav-link {
+    color: #333!important;
+    text-transform: uppercase;
+}
+
+.text-primary {
+    color:#6d652a!important;
+}
+
+.hero {
+    color:#6d652a;
+    height:65vh;
+    align-items: center;
+    display: flex;
+}
+
+.hero-text {
+    margin-top:-100px;
+}
+
+.hero-text h1 {
+    font-size: 4em;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.hero-text .lead {
+    font-size: 1.5em;
+    font-weight: 200;
+    margin-top: 0;
+    max-width: 20em;
+    margin-top:25px;
+    color:#333;
+}
+
+/** hero has a curved top **/
+
+
+/** testimonials has a curved top in the opposite direction **/
+.testimonials:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 30% 70% 0 0;
+    margin-left:-100px;
+    width: 140%;
+    height: 300px;
+    background-color: #6d652a;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.logo {
+    font-family:'Prosto One', sans-serif;
+    font-size: 1.5em;
+    color:#6d652a;
+    text-decoration: none;
+    max-width: 250px;
+    /** make it so it's always four lines **/
+    word-wrap: break-word;
+    text-align: left;
+    text-transform: capitalize!important;
+    line-height: 1.2em;
+}
+
+
+
+.testimonial p:first-of-type {
+    font-size: 16px;
+    font-style: italic;
+    color:#eee;
+    font-weight: 200;
+}
+
+.testimonial p:last-of-type {
+    font-size: 12px;
+        color:#6d652a;
+}
+
+
+
+.testimonials {
+   height:100vh;
+}
